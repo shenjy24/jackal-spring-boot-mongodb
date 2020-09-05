@@ -1,9 +1,9 @@
-##Docker部署
-####一.环境准备
+## Docker部署
+#### 一.环境准备
 1. 在玩家目录（例如`/home/jonas`）创建项目目录`gameweb`，该目录称为工作目录。
 2. 将`src/main/docker/Dockerfile`文件和打包得到的`gameweb.jar`上传到工作目录。
 
-####二.启动服务
+#### 二.启动服务
 1. 在工作目录执行如下指令，创建镜像。
 ```
 docker build -t gameweb .
