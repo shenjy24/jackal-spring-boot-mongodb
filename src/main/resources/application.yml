@@ -1,0 +1,12 @@
+server:
+  port: 8080
+
+spring:
+  data:
+    mongodb:
+      uri: mongodb://127.0.0.1:27000,127.0.0.1:27001,127.0.0.1:27002/jackal?replicaSet=rs
+
+logging:
+  level:
+    org.springframework.data.mongodb.core: DEBUG
+
